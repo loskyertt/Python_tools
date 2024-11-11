@@ -1,9 +1,11 @@
-import requests
-from time import sleep
-from requests.exceptions import RequestException, ProxyError
-from urllib3.exceptions import NameResolutionError, MaxRetryError
 import logging
-from 爬虫.proxy.getProxy import get_free_proxy, delete_proxy
+from time import sleep
+
+import requests
+from requests.exceptions import ProxyError, RequestException
+from urllib3.exceptions import MaxRetryError, NameResolutionError
+
+from 爬虫.proxy.getProxy import delete_proxy, get_free_proxy
 
 
 def get_data(html_data, output_file: str) -> bool:
