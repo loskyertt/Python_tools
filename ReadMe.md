@@ -1,6 +1,6 @@
 # 1.项目模板示例
 
-````bash
+```bash
 my_project/
 │
 ├── my_project/         # 项目的主要代码目录，与项目同名
@@ -37,8 +37,8 @@ my_project/
 ├── .gitignore        # Git忽略文件配置
 ├── .env              # 环境变量配置文件
 ├── .git/             # Git版本控制目录
-```
 └── .vscode/          # Visual Studio Code 配置目录
+```
 
 以下是每个目录和文件的简要说明：
 
